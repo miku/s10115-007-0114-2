@@ -33,6 +33,7 @@ First construct a decision tree via divide and conquer:
 
 * If all elements in S belong to the same class or S is small, the tree
   is a leaf, labeled with the most frequent class
+
 * Otherwise, choose a test based on a single attribute with two or more
   outcomes. This test is the root of the tree and it partitions S into
   subsets S_1, S_2, ... according to the number of outcomes. Apply this
